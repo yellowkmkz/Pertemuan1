@@ -1,0 +1,33 @@
+nav {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav > div > img {
+  height: 50%;
+  justify-content: space-between;
+}
+
+nav > img {;;
+  align-items: center;
+  display: flex;
+  height: 80%;
+}
+
+nav > .menu > a {
+  padding: 0 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
