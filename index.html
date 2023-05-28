@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gagdetstore.id</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="hero.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gadgetstore.id</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="hero.css"/>
+    <link rel="stylesheet" href="content.css"/>
 </head>
-
 <body>
-  <nav>
-    <button id="kategori-trigger">
-      =
-    </button>
-    <img src="img/logo.png" alt="gadgetstore">
-    <div class="kategori">
-      <a href="#">Smartphone</a>
-      <a href="#">Laptop</a>
-      <a href="#">Accessories</a>
-    </div>
-    <div class="tools">
-      <img src="img/search.png" alt="search">
-      <img src="img/cart.png" alt="cart">
-    </div>
-  </nav>
-  <main>
-    <section id="hero">
-      <h1 class="judul">
-        IPHONE 14 PRO | 14 PRO MAX
-      </h1>
-      <img src="img/ip14-overview.png" alt="ip14">
-    </section>
-    <section class="bg-light py-5">
-      <div class="container">
-        
-      </div>
-    </section>
-  </main>
-  <script src="navbar.js"></script>
-</body>
+    <nav class="navbar">
+        <button class="menu-trigger">
+            <img src="img/hamburger-menu.svg" alt="menu-trigger">
+          </button>
+        <div>
+            <img class="logo" src="img/icon.png"alt="">
+        </div>
+        <div class="menu">
+            <div class="menu-list" style="text-decoration: black">
+              <a href="#">Smartphone</a>
+              <a href="#">Laptop</a>
+              <a href="#">Accessories</a>
+            </div>
+        </div>
+        <div class="tools">
+            <img src="img/cart.png" alt="cart">
+            <img src="img/search.png" alt="search">
+          </div>
+    </nav>
+    <main>
+        <section id="hero">
+            <h1 class="judul">
+              IPHONE 14 PRO | 14 PRO MAX
+            </h1>
+            <img src="img/ip14-overview.png" alt="ip14">
+          </section>
+        <div class="container">
+            UNDER PROGRESS
+        </div>
 
+        <section id="content">
+          <table border="1">
+            <tr>
+              <td>id</td>
+              <td>type</td>
+              <td>price</td>
+            </tr>
+          </table>
+        </section>
+    </main>
+    <script src="navbar.js"></script>
+    <script src="content.js"></script>
+</body>
 </html>

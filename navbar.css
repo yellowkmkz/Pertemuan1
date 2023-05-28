@@ -1,45 +1,83 @@
-nav {
-  background-color: black;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-}
 
-
-nav div {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-nav > div > img {
-  height: 50%;
-  padding-right: 10%
-}
-
-nav > img {
-  display: flex;
-  height: 80%;
-}
-
-nav > .kategori > a {
-  padding: 0 8px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-}
-
-.kategori {
-  display: none;
-}
-
-@media (min-width: 360px) {
-  .kategori{
+.navbar{
+    background-color :black;
+    justify-content: space-between;
     display: flex;
-  }
-  .kategori-trigger {
-    display: none;
-  }
+    height: 44px;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
 }
+
+.logo{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+
+.menu-list {
+    display: flex;
+}
+
+.tools {
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.menu-trigger {
+    display: none;
+}
+
+
+.menu {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+    top: 55px;
+    width: 100px;
+    transform: translateX(-100%);
+    transition-duration: 300ms;
+  }
+  
+  @media (min-width: 768px) {
+    .menu {
+      transform: translateX(0) !important;
+      display: flex;
+      position: static;
+      flex-direction: row;
+      background-color: inherit;
+      width: auto;
+    }
+    .menu-trigger {
+      display: none;
+    }
+  }
+  
+  nav > .menu > a {
+    padding: 0 8px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }

@@ -1,17 +1,23 @@
+// DOM: Document Object Manipulation
 let open = false
+document
+  .querySelector('.menu-trigger')
+  .addEventListener('click', function () {
 
-document.querySelector('.kategori-trigger').addEventListener('click', () => {
-    
-    if (!open){
-        document.querySelector('.kategori')
+    if (!open) {
+
+      document.querySelector('.menu')
         .setAttribute('style', 'transform: translateX(0)')
-        //document.querySelector('.menu').setAttribute('style', 'display: block')
+      // document.querySelector('.menu').setAttribute('style', 'display: block')
+
     } else {
-        document.querySelector('.kategori')
+
+      document.querySelector('.menu')
         .setAttribute('style', 'transform: translateX(-100%)')
-        //document.querySelector('.menu').setAttribute('style', 'display: none')
+      // document.querySelector('.menu').setAttribute('style', 'display: none')
+
     }
 
-open = !open
+    open = !open
 
-})
+  })
