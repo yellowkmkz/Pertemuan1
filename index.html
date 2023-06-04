@@ -2,63 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gadgetstore.id</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="navbar.css"/>
-    <link rel="stylesheet" href="hero.css"/>
-    <link rel="stylesheet" href="content.css"/>
+    <title>Gadgetstore.id</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 <body>
-    <nav class="navbar">
-        <button class="menu-trigger">
-            <img src="img/hamburger-menu.svg" alt="menu-trigger">
-          </button>
-        <div>
-            <img class="logo" src="img/icon.png"alt="">
-        </div>
-        <div class="menu">
-            <div class="menu-list" style="text-decoration: black">
-              <a href="#">Smartphone</a>
-              <a href="#">Laptop</a>
-              <a href="#">Accessories</a>
+        <nav>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <div class="logo">
+              <img src="img/logo.png" alt="logo">
             </div>
-        </div>
-        <div class="tools">
-            <img src="img/cart.png" alt="cart">
-            <img src="img/search.png" alt="search">
-          </div>
-    </nav>
-    <main>
-        <section id="hero">
-            <h1 class="judul">
-              IPHONE 14 PRO | 14 PRO MAX
-            </h1>
-            <img src="img/ip14-overview.png" alt="ip14">
-          </section>
-        <div class="container1">
-          <h2 class="judul">
-            COMING SOON
-          </h2>
-            <img src="https://gadgetstore.kz/wa-data/public/shop/products/27/05/527/images/1868/1868.0x250.jpg" alt="">
-            <img src="https://gadgetstore.kz/wa-data/public/shop/products/29/05/529/images/1872/1872.0x250.jpeg" alt="">
-            <img src="https://gadgetstore.kz/wa-data/public/shop/products/15/01/115/images/1870/1870.0x250.jpeg" alt="">
-            <img src="https://gadgetstore.kz/wa-data/public/shop/products/78/05/578/images/1982/1982.0x250.jpeg" alt="">
-        </div>
-
-        <section id="content">
-          <table border="1">
-            <tr>
-              <td>id</td>
-              <td>Type</td>
-              <td>Harga</td>
-              <td>Gambar</td>
-            </tr>
-          </table>
-        </section>
-    </main>
+            <ul class="mainMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">Smartphone</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Accessories</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </span>
+            </ul>
+            <div class="tools">
+              <img src="img/search.png" alt="">
+              <img src="img/cart.png" alt="">
+            </div>
+        </nav>
+        <main>
+            <section id="hero">
+                <h1 class="judul">
+                    IPHONE 14 PRO | 14 PRO MAX
+                  </h1>
+            </section>
+            <section>
+                <div>
+                  <div class="container1">
+                  </div>
+                </div>
+              </section>
+              <section id="content">
+              </section>
+        </main>
     <script src="navbar.js"></script>
-    <script src="content-ip.js"></script>
+    <script src="content.js"></script>
 </body>
 </html>

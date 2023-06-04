@@ -4,18 +4,15 @@
     position: static;
   }
   
-  #hero .judul {
-    text-align: center;
+  #hero h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 36vh;
     color: white;
     position: absolute;
-    top: 240px;
-    width: 100%;
-    font-size: 36px;
-  }
-  
-  #hero > img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
+    font-size: 36px;
+    background-image: url(img/ip14-overview.png);
+    background-size: 100%;
   }

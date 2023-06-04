@@ -1,23 +1,22 @@
-// DOM: Document Object Manipulation
-let open = false
-document
-  .querySelector('.menu-trigger')
-  .addEventListener('click', function () {
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
-    if (!open) {
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
 
-      document.querySelector('.menu')
-        .setAttribute('style', 'transform: translateX(0)')
-      // document.querySelector('.menu').setAttribute('style', 'display: block')
+// close menu when you click on a menu item 
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
 
-    } else {
-
-      document.querySelector('.menu')
-        .setAttribute('style', 'transform: translateX(-100%)')
-      // document.querySelector('.menu').setAttribute('style', 'display: none')
-
-    }
-
-    open = !open
-
-  })
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.left = '0';
+}
+function close(){
+    mainMenu.style.left = '-100%';
+}

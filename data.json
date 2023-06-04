@@ -1,0 +1,81 @@
+[{
+    "id": 1,
+    "type": "Apple AirPods Pro 2",
+    "price": "Coming Soon",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/27/05/527/images/1868/1868.0x250.jpg"
+  }, {
+    "id": 2,
+    "type": "Apple AirPods Max Silver",
+    "price": "Coming Soon",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/29/05/529/images/1872/1872.0x250.jpeg"
+  }, {
+    "id": 3,
+    "type": "Apple AirPods 2",
+    "price": "Coming Soon",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/15/01/115/images/1870/1870.0x250.jpeg"
+  }, {
+    "id": 4,
+    "type": "Apple AirTag (4pcs 1 Pack)",
+    "price": "Coming Soon",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/78/05/578/images/1982/1982.0x250.jpeg"
+  }, {
+    "id": 5,
+    "type": "Iphone 14 Pro 256GB Deep Purple",
+    "price": "$1149.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/56/06/656/images/2129/2129.0x250.jpeg"
+  }, {
+    "id": 6,
+    "type": "Iphone 14 Pro 256GB Gold",
+    "price": "$1199.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/52/06/652/images/2121/2121.0x250.jpeg"
+  }, {
+    "id": 7,
+    "type": "Iphone 14 Pro 256GB Space Black",
+    "price": "$1099.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/55/06/655/images/2127/2127.0x250.jpeg"
+  }, {
+    "id": 8,
+    "type": "Iphone 14 Pro 256GB Silver",
+    "price": "$1099.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/54/06/654/images/2125/2125.0x250.jpeg"
+  }, {
+    "id": 9,
+    "type": "Apple MacBook Pro 13 2022 256GB Space Gray",
+    "price": "$1299.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/57/04/457/images/1702/1702.0x250.jpeg"
+  }, {
+    "id": 10,
+    "type": "Apple MacBook Air 13.6 2022 256GB Space Gray",
+    "price": "$1199.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/97/04/497/images/1816/1816.0x250.jpeg"
+  }, {
+    "id": 11,
+    "type": "Apple MacBook Pro 16.2 1TB Space Gray",
+    "price": "$2499.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/41/04/441/images/1647/1647.0x250.jpg"
+  }, {
+    "id": 12,
+    "type": "Apple MacBook Pro 16.2 1TB Silver",
+    "price": "$2899.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/52/05/552/images/1924/1924.0x250.jpeg"
+  }, {
+    "id": 13,
+    "type": "Apple Pencil (2nd Generation)",
+    "price": "$99.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/31/00/31/images/1203/1203.0x250.jpg"
+  }, {
+    "id": 14,
+    "type": "Apple Magsafe Battery Pack (White)",
+    "price": "$70.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/79/05/579/images/1983/1983.0x250.jpeg"
+  }, {
+    "id": 15,
+    "type": "Apple Wall Charger MHJE3ZM/A 20W",
+    "price": "$24.99",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/00/06/600/images/2019/2019.0x250.jpeg"
+  }, {
+    "id": 16,
+    "type": "AirPods 3 Wireless with Magsafe Charging Case",
+    "price": "$179.00",
+    "image": "https://gadgetstore.kz/wa-data/public/shop/products/28/05/528/images/1869/1869.0x250.jpeg"
+  }]
