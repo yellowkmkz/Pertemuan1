@@ -13,6 +13,19 @@
     width: 100%;
     height: 100%;
     font-size: 36px;
-    background-image: url(img/ip14-overview.png);
-    background-size: 100%;
+    /* background-image: url(img/ip14-overview.png);
+    background-size: 100%; */
+  }
+
+  #hero > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  @media (max-width: 800px) {
+    #hero h1 {
+      font-size: 25px;
+    }
   }
